@@ -1,0 +1,14 @@
+{
+  "name": "nightwatch-mocha-each-hooks",
+  "scripts": {
+    "nightwatch": "nightwatch",
+    "mocha": "MOCHA=1 nightwatch"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "74",
+    "nightwatch": "^1.1.12"
+  }
+}

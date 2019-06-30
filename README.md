@@ -1,6 +1,6 @@
 # beforeEach and afterEach hooks bug example
 
-Problem: beforeEach and afterEach hooks are not colled when using mocha runner.  
+Problem: beforeEach and afterEach hooks are not called when using mocha runner.  
 Issue: https://github.com/nightwatchjs/nightwatch/issues/1477
 
 Steps to reproduce:
@@ -12,8 +12,6 @@ Steps to reproduce:
 GLOBAL beforeEach
 Running:  Demo test GitHub
 
-[Function: beforeEach]
-[Function: before]
 ✔ Element <body> was visible after 25 milliseconds.
 ✔ Element <.container h1 strong a> was visible after 23 milliseconds.
 ✔ Checking project title is set to nightwatch  - 25 ms.

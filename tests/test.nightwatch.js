@@ -1,7 +1,5 @@
 module.exports = {
   'Demo test GitHub'(client) {
-    console.log(client.globals.beforeEach)
-    console.log(client.globals.before)
     client
       .url('http://github.com/nightwatchjs/nightwatch')
       .waitForElementVisible('body', 1000)

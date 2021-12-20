@@ -9,6 +9,7 @@ Steps to reproduce:
 ```bash
 > nightwatch
 
+GLOBAL before
 GLOBAL beforeEach
 Running:  Demo test GitHub
 
